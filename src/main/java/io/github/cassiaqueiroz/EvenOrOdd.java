@@ -9,10 +9,13 @@ public class EvenOrOdd {
             if (evenOdd %2 ==1) { //to figure out even numbers: “%2 == 0”
 
                 System.out.print("Este número es impar.");
+
             }else {
+
                 System.out.print("Este número es par.");
 
             }
 
     }
+
 }
