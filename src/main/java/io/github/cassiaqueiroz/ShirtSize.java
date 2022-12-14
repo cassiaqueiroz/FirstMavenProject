@@ -2,7 +2,7 @@ package io.github.cassiaqueiroz;
 
 public class ShirtSize {
 
-    public static void main(String[ ] args) {
+    public static void main(String[] args) {
 
             char size;
 
