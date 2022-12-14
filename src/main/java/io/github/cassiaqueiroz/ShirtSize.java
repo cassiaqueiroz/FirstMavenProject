@@ -9,7 +9,9 @@ public class ShirtSize {
             size = 'M';
 
             /* Obs.: Using “Switch”, we put an expression between parenthesis,
-             not a condition (as we do when we use “If”).*/
+             not a condition (as we do when we use “If”);
+
+             To go out of loopings, we use "break"*/
 
             switch (size) {
 
