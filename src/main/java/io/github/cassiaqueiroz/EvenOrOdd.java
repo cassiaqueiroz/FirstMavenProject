@@ -4,17 +4,17 @@ public class EvenOrOdd {
 
     public static void main(String[] args) {
 
-            int evenOdd = 73;
+        int evenOdd = 73;
 
-            if (evenOdd %2 ==1) { //to figure out even numbers: “%2 == 0”
+        if (evenOdd % 2 == 1) { //to figure out even numbers: “%2 == 0”
 
-                System.out.print("That's an odd number.");
+            System.out.print("That's an odd number.");
 
-            }else {
+        } else {
 
-                System.out.print("That's an even number.");
+            System.out.print("That's an even number.");
 
-            }
+        }
 
     }
 
