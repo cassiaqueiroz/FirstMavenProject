@@ -1,8 +1,12 @@
 package io.github.cassiaqueiroz;
 
+import javax.xml.transform.stream.StreamSource;
+
 public class ShirtSize {
 
     public static void main(String[] args) {
+
+           /* Old syntax */
 
             char size;
 
@@ -11,7 +15,7 @@ public class ShirtSize {
             /* Obs.: Using “Switch”, we put an expression between parenthesis,
              not a condition (as we do when we use “If”);
 
-             To go out of loopings, we use "break"*/
+             We use "break" to interrupt the execution of a block of statements.*/
 
             switch (size) {
 
@@ -38,6 +42,7 @@ public class ShirtSize {
                     System.out.println("There’s no shirt");
 
             }
+
 
     }
 
