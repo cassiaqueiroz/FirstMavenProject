@@ -2,21 +2,22 @@ package io.github.cassiaqueiroz;
 
 import java.util.Scanner;
 
+/**
+ * This class finds the maximum number of two input numbers.
+ */
 public class MaxNumberOf2 {
 
     public static void main(String[] args) {
-
-        int x, y;
 
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Write a number and press enter:");
 
-            x = sc.nextInt();
+        int x = sc.nextInt();
 
         System.out.print("Write another number and press enter:");
 
-            y = sc.nextInt();
+        int y = sc.nextInt();
 
         sc.close();
 
@@ -25,7 +26,7 @@ public class MaxNumberOf2 {
 
             System.out.print("Maximum Number:" + x);
 
-        }else {
+        } else {
 
             System.out.print("Maximum Number:" + y);
 
