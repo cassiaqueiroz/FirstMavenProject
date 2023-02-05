@@ -12,7 +12,7 @@ public class ShirtSize {
 
             size = 'M';
 
-            /* Obs.: Using “Switch”, we put an expression between parenthesis,
+            /* Using “Switch”, we put an expression between parenthesis,
              not a condition (as we do when we use “If”);
 
              We use "break" to interrupt the execution of a block of statements.*/
@@ -42,6 +42,24 @@ public class ShirtSize {
                     System.out.println("There’s no shirt");
 
             }
+
+            /* New syntax */
+
+            char kidSize = 'M';
+
+             /* In the new syntax, "switch" is used as an expression that returns a value assigned
+             to a variable (shirtColor).
+             Each case is followed by the "->" operator and the expression to be returned.
+             "Break" is not necessary.*/
+
+            String shirtColor = switch (kidSize) {
+                case 'P' -> "Red Shirt";
+                case 'M' -> "Yellow Shirt";
+                case 'G' -> "White Shirt";
+                default -> "There's no shirt";
+            };
+
+            System.out.println(shirtColor);
 
 
     }
