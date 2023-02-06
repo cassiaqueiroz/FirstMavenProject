@@ -4,21 +4,35 @@ public class OneToTen {
 
     public static void main(String[] args) {
 
-        int number = 1; // Declaration and Initialization
+        // Using a 'while' loop
 
-        while (number <= 10) {
+        System.out.println("One to ten using a 'while' loop:");
 
-            System.out.println(number);
+        int numberWhile = 1; // Declaration and Initialization
 
-            if (number <= 10) {
-                number++;
+        while (numberWhile <= 10) {
 
-            }
+            System.out.println(numberWhile);
+            numberWhile++;
 
         }
+
+        System.out.println();
+
+        // Using a 'for' loop
+
+        System.out.println("One to ten using a 'for' loop:");
+
+        for (int numberFor = 1; numberFor <= 10; numberFor++) {
+
+            System.out.println(numberFor);
+
+        }
+
 
     }
 
 }
+
 
 
