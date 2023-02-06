@@ -18,6 +18,7 @@ public class OneToTen {
         }
 
         System.out.println();
+        System.out.println();
 
         // Using a 'for' loop
 
